@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h1 class="karla">Generate a
+                    <br><span class="br">random password</span></h1>
+                <h2 class="neverAgain">Never use an insecure password again.</h2>
+
+                <p class="passwordButton"><button onclick="showPassword()">Generate passwords</button></p>
+                <div class="inputClass">
+                    <p class="inputNumber">How many characters do you want?</p>
+                    <p class="inputParagraph"><input type="number" class="inputStyle" id="passwordlength" value="" min="8" max="15"></p>
+                </div>
+
+                <div class="resultInput" id="resultText"></div>
+                <div class="line"></div>
+                
+            </div>
+            <div>
+                <div class="passwordSection">
+                    <button onclick="pw1();" id="pw1" class="passwords">...</button>
+                    <button onclick="pw2();" id="pw2" class="passwords">...</button>
+                </div>
+    
+                <div class="passwordSection">
+                    <button onclick="pw3();" id="pw3" class="passwords">...</button>
+                    <button onclick="pw4();" id="pw4" class="passwords">...</button>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

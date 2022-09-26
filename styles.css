@@ -1,0 +1,156 @@
+@font-face {
+    font-family: Inter;
+    src: url("font/Inter/Inter-VariableFont_slnt\,wght.ttf");
+}
+
+@font-face {
+    font-family: Karla;
+    src: url("font/Karla/Karla-VariableFont_wght.ttf");
+}
+
+body {
+    background: #1C1C1C;
+    font-family: Inter;
+    margin: 0;
+}
+
+.container {
+    border: 6px solid rgb(197, 197, 197);
+    border-radius: 6px;
+    background: #1F2937;
+
+    padding: 20px;
+
+    margin-top: 64px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+
+button {
+    font-size: 20px;
+    background: #10B981;
+    border: none;
+    border-radius: 6px;
+    padding: 9px 15px;
+    color: white;
+    font-family: Inter;
+    cursor: pointer;
+}
+
+.line {
+    width: 92%;
+    height: 1px;
+
+    margin: 0 auto;
+    background-color: #D5D4D8;
+}
+
+.passwordSection {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 5px;
+
+    list-style: none;
+}
+
+.karla {
+    font-family: Karla;
+    font-size: 60px;
+    font-weight: bold;
+
+    color: aliceblue;
+
+    padding-top: 40px;
+    padding-left: 52px;
+}
+
+
+.neverAgain {
+    color: #D5D4D8;
+    font-size: 25px;
+
+    padding-left: 52px;
+    padding-top: 10px;
+}
+
+.passwordButton {
+    padding-left: 52px;
+    padding-top: 51px;
+
+    margin-bottom: 50px;
+}
+
+.br {
+    color: #10B981;
+}
+
+.passwords {
+    border: none;
+    border-radius: 6px;
+    background: #273549;
+    height: 39px;
+    width: 260px;
+
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+
+    margin-bottom: 5px;
+    margin-top: 10px;
+
+    color: #10B981;
+    cursor: pointer;
+}
+
+.inputNumber {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: bold;
+
+    color: #D5D4D8;
+
+    margin-bottom: 0;
+    margin-top: 0;
+
+    padding-top: 10px;
+    padding-left: 52px;
+}
+
+.inputStyle {
+    text-align: center;
+    border: none;
+    border-radius: 6px;
+    color: #D5D4D8;
+    height: 30px;
+    width: 60px;
+
+    font-size: 15px;
+    font-weight: bold;
+
+    color: #10B981;
+}
+
+.resultInput {
+    color: #D5D4D8;
+    font-size: 20px;
+    font-family: Inter;
+    color: #10B981;
+    font-weight: bold;
+
+    margin-top: 10px;
+    margin-bottom: 15px;
+
+    padding-left: 52px;
+    padding-top: 10px;
+}
+
+.inputParagraph {
+    margin-top: 5px;
+    margin-left: 52px;
+}
+
+.inputClass {
+    display: flex;
+}
